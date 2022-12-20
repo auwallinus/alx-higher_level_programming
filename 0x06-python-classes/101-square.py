@@ -85,6 +85,8 @@ class Square:
         for w in range(self.size):
             for i in range(self.position[0]):
                 pos += " "
+            for j in range(self.size):
+                pos += "#"
             pos += "\n"
         return pos
 
